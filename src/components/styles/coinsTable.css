@@ -1,0 +1,68 @@
+
+
+.coins-table-container{
+    text-align: center;
+    color: white;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    min-height: 90vh;
+    /* border: 1px solid red; */
+}
+
+.coins-table-container h2{
+    color: white;
+    font-family: "Montserrat";
+}
+
+.coins-table-container .TextField{
+    color: white;
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+    background-color: inherit;
+    width: 100%;
+    margin: 2rem 0;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: .8rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.tableCellStyles{
+    color: black;
+    font-family: "Montserrat";
+    width: 10%;
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+    text-transform: capitalize;
+}
+
+.coin-table-row :hover{
+    background-color: #131111;
+}
+
+
+/* .table-cell{
+    color:green;
+    font-size: 1px;
+    border: 1px solid rgb(255, 255, 255);
+} */
+
+/* ============================================ */
+
+@media (max-width: 900px) {
+.coins-table-container{
+    min-height: 50vh;
+}
+  }
+
+  @media (max-width: 700px) {
+    .table-cell{
+        color:green
+    }
+      }
+  
+  @media (max-width:400px){
+ 
+  
+  }

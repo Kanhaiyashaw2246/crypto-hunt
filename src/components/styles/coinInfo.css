@@ -1,0 +1,27 @@
+.coinInfo-container{
+    width: 65vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 3rem;
+    /* border: 1px solid red; */
+}
+
+
+
+/* ===================================================== */
+@media only screen and (max-width: 768px) 
+{
+    .coinInfo-container{
+        width: 100%;
+        margin-top: 0;
+        padding: 1rem;
+        padding-top: 0;
+        
+    }
+
+    
+    
+}
